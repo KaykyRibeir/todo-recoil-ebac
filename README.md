@@ -1,33 +1,46 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
 # To-do List com React + Recoil
 
-Projeto desenvolvido para a EBAC.
+Projeto desenvolvido para a EBAC utilizando React, Vite e Recoil para gerenciamento global de estado.
 
 ## Funcionalidades
+
 - Adicionar tarefas
 - Remover tarefas
-- Marcar como concluídas
-- Filtrar tarefas
+- Marcar tarefas como concluídas
+- Filtrar tarefas:
+  - Todas
+  - Concluídas
+  - Pendentes
 
-## Tecnologias
+## Tecnologias utilizadas
+
 - React
-- Recoil
 - Vite
->>>>>>> 6661c1a918a9ad84c8c9c12210debcca5dca872a
+- Recoil
+
+## Estrutura do projeto
+
+```txt
+src/
+  atoms/
+  components/
+  selectors/
+```
+
+## Instalação
+
+```bash
+npm install
+```
+
+## Executando o projeto
+
+```bash
+npm run dev
+```
+
+## Build do projeto
+
+```bash
+npm run build
+```
